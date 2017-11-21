@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+		<style type="text/css" media="screen">
+			body{
+				background: url('BobsBurgers1-copy.jpg');
+				
+				
+			}
+			.ear{
+				
+				width: 109px;
+				height: 377px;
+				background: deeppink;
+				
+				border-radius: 59px / 203px;
+				top: -8px;
+
+
+			}
+			
+			.head{
+				position: relative;
+				width: 550px;
+				margin: auto;
+
+			}
+			.head2{
+				width: 400px;
+				height: 420px;
+				background-color: deeppink;
+				border-radius: 100px / 200px;
+				left: 75px;
+				top: 260px;
+				position: absolute;
+				z-index: -3;
+			}
+			.hair-right{
+				top: 467px;
+				left: -40px;
+				width: 200px;
+				height: 200px;
+				border-radius: 50%;
+				box-shadow: 30px 70px 0 0 black;
+				position: absolute;
+				z-index: -2;
+			}
+			.hair-left{
+				top: 457px;
+				right: -22px;
+				width: 200px;
+				height: 200px;
+				border-radius: 50%;
+				box-shadow: -13px 82px 0 0 black;
+				position: absolute;
+				z-index: -2;
+			}
+
+			.face{
+				width: 383px;
+				height: 301px;
+				background-color: peachpuff;
+				border-radius: 200px 200px 300px 300px;
+				left: 83px;
+				top: 400px;
+				position: absolute;
+				z-index: -1;
+			}
+			
+			.eye{
+				width: 71px;
+				height: 101px;
+				background: white;
+				
+				border-radius: 46px / 58px;
+				border: 2px solid black;
+				left: 159px;
+				top: 463px;
+				position: absolute;
+			}
+			.right-eyebrow {
+				width: 0;
+				height: 0;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+				border-bottom: 24px solid black;
+				position: absolute;
+				transform: rotate(-21deg);
+				left: 327px;
+				top: 450px;
+			}
+
+			.right-eyebrow2{
+				width: 0;
+				height: 0;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+				border-bottom: 24px solid black;
+				position: absolute;
+				left: 342px;
+				top: 444px;
+				
+			}
+			.right-eyebrow3{
+				width: 0;
+				height: 0;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+				border-bottom: 24px solid black;
+				position: absolute;
+				left: 354px;
+				top: 444px;
+				
+			}
+			.right-eyebrow4{
+				width: 0;
+				height: 0;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+				border-bottom: 24px solid black;
+				position: absolute;
+				transform: rotate(12deg);
+				left: 367px;
+				top: 451px;
+				
+			}
+			.left-eyebrow {
+				width: 0;
+				height: 0;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+				border-bottom: 24px solid black;
+				position: absolute;
+				transform: rotate(-21deg);
+				left: 171px;
+				top: 448px;
+			}
+
+			.left-eyebrow2{
+				width: 0;
+				height: 0;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+				border-bottom: 24px solid black;
+				position: absolute;
+				left: 186px;
+				top: 442px;
+				
+			}
+			.left-eyebrow3{
+				width: 0;
+				height: 0;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+				border-bottom: 24px solid black;
+				position: absolute;
+				left: 198px;
+				top: 441px;
+				
+			}
+			.left-eyebrow4{
+				width: 0;
+				height: 0;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+				border-bottom: 24px solid black;
+				position: absolute;
+				transform: rotate(15deg);
+				left: 213px;
+				top: 445px;
+				
+			}
+			/* } */
+
+			.eye2{
+				width: 65px;
+				height: 88px;
+				background: white;
+				
+				border-radius: 46px / 58px;
+				border: 2px solid black;
+				left: 313px;
+				top: 467px;
+				position: absolute;
+			}
+				
+			.left{
+				left: 100px;
+				position: absolute;
+				transform: rotate(-8deg)
+			}
+			.right{
+				right: 100px;
+				position: absolute;
+				transform: rotate(8deg)
+			}
+
+			.dot{
+				position: absolute;
+				width: 10px;
+				height: 10px;
+				background: black;
+				border-radius: 50px;
+				left: 191px;
+				top: 509px;
+			}
+			.dot2{
+				position: absolute;
+				width: 10px;
+				height: 10px;
+				background: black;
+				border-radius: 50px;
+				left: 341px;
+				top: 509px;
+			}
+			
+			
+			.neck{
+				
+				width: 300px;
+				height: 150px;
+				margin: 66px 0;
+				background: peachpuff;
+				
+				
+				text-align: center;
+				text-indent: .1em;
+				
+				
+				
+				position: absolute;
+				top: 511px;
+				
+				
+				left: 126px;
+				
+				border-radius: 16px 23px 185px 191px;
+			}
+
+			.neck2 {
+				position: absolute;
+				width: 84px;
+				height: 0;
+				border-left: 50px solid transparent;
+				border-right: 50px solid transparent;
+				border-top: 92px solid peachpuff;
+				
+				top: 701px;
+				left: 185px;
+				
+
+			}
+			.nose {
+				position: absolute;
+
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				box-shadow: 0px 2px 0 0 black;
+
+				left: 261px;
+				top: 553px;
+			}
+
+			.lip-left {
+
+
+				position: absolute;
+				top: 624px;
+
+				width: 137px;
+				height: 0px;
+				border: 1.5px solid black;
+
+
+				left: auto;
+				right: 178px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-6deg);
+				z-index: 1;
+			}
+			.lip-right {
+				position: absolute;
+				top: 639px;
+
+				width: 21px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 233px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-6deg);
+				z-index: 1;
+			}
+			.chin {
+				position: absolute;
+				top: 703px;
+
+				width: 34px;
+				height: 0px;
+				border: 0.3px dotted black;
+
+
+				left: auto;
+				right: 236px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-6deg);
+				z-index: 1;
+			}
+			.left-ear{
+				position: absolute;
+				top: 248px;
+
+				width: 54px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 114px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-43deg);
+			}
+			.left-ear2{
+				position: absolute;
+				top: 239px;
+
+				width: 80px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 106px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-42deg);
+			}
+			.left-ear3{
+				position: absolute;
+				top: 226px;
+
+				width: 69px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 113px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-42deg);
+			}
+			.left-ear4{
+				position: absolute;
+				top: 85px;
+
+				width: 61px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 128px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-42deg);
+			}
+			.left-ear5{
+				position: absolute;
+				top: 69px;
+
+				width: 22px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 155px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-37deg);
+			}
+			.left-ear6{
+				position: absolute;
+				top: 81px;
+
+				width: 36px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 147px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-42deg);
+			}
+			.right-ear{
+				position: absolute;
+				top: 81px;
+
+				width: 63px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 359px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-73deg);
+			}
+			.right-ear2{
+				position: absolute;
+				top: 68px;
+
+				width: 33px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 379px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-67deg);
+			}
+			.right-ear3{
+				position: absolute;
+				top: 58px;
+
+				width: 35px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 385px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-60deg);
+			}
+			.right-ear4{
+				position: absolute;
+				top: 213px;
+
+				width: 70px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 326px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-73deg);
+			}
+			.right-ear5{
+				position: absolute;
+				top: 205px;
+
+				width: 70px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 333px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-67deg);
+			}
+			.right-ear6{
+				position: absolute;
+				top: 194px;
+
+				width: 47px;
+				height: 0px;
+				border: 0.7px solid black;
+
+
+				left: auto;
+				right: 348px;
+
+				border-radius: 159px 62px 243px 41px;
+
+				transform: rotate(-60deg);
+			}
+			.brow-right{
+				position: absolute;
+				top: 424px;
+				right: 149px;
+				width: 56px;
+				height: 15px;
+				border-radius: 50%;
+				box-shadow: 0px -1px 0 0 black;
+				transform: rotate(20deg);
+			}
+			.brow-left{
+				position: absolute;
+				top: 424px;
+				right: 348px;
+				width: 56px;
+				height: 15px;
+				border-radius: 50%;
+				box-shadow: 0px -1px 0 0 black;
+				transform: rotate(-20deg);
+			}
+			
+			.talk-bubble{
+				position: absolute;
+				text-align: center;
+				top: 100px;
+				right: 481px;
+				width: 535px;
+				height: 132px;
+				background: #e5e5e5;
+				border-radius: 100px / 50px;
+			}
+			.talk-bubble2{
+				
+				position: absolute;
+				top: 197px;
+				right: 450px;
+				width: 0;
+				height: 0;
+				border-left: 50px solid transparent;
+				border-right: 50px solid transparent;
+				border-top: 100px solid #e5e5e5;
+				transform: rotate(-29deg);
+				z-index: -7;
+			}
+			.bubble-talk{
+				position: relative;
+				font-family: Chalkduster, fantasy;
+				color: black;
+				margin-top: 24px;
+				font-size: 22px;				
+
+			}
+			.bottom-body{
+				position: absolute;
+				top: 800px;
+				right: 163px;
+				border-bottom: 184px solid green;
+				border-left: 83px solid transparent;
+				border-right: 71px solid transparent;
+				height: 0;
+				width: 83px;
+			}
+			.top-body{
+				position: absolute;
+				right: 231px;
+				top: 713px;
+				width: 84px;
+				height: 80px;
+				border-radius: 50%;
+				box-shadow: 0px 40px 0 0 peachpuff;
+			}
+			
+
+
+			/* } */
+			/* .hubcap{
+				background-color: silver;
+				height: 100px;
+				width: 100px;
+				border-radius: 50%;
+				position: absolute;
+			} */
+		</style>
+
+</head>
+<body>
+
+	<div class="head">
+		<div class="ear left"></div>
+		<div class="ear right"></div>
+		<div class="head2"></div>
+		<div class="face"></div>
+		<div class="hair-right"></div>
+		<div class="hair-left"></div>
+		<div class="left-eye"></div>
+		<div class="right-eye"></div>
+		<div class="eye"></div>
+		<div class="eye2"></div>
+		<div class="right-eyebrow"></div>
+		<div class="right-eyebrow2"></div>
+		<div class="right-eyebrow3"></div>
+		<div class="right-eyebrow4"></div>
+		<div class="left-eyebrow"></div>
+		<div class="left-eyebrow2"></div>
+		<div class="left-eyebrow3"></div>
+		<div class="left-eyebrow4"></div>
+		<div class="dot"></div>
+		<div class="dot2"></div>
+		<div class="lip-left"></div>
+		<div class="nose"></div>
+		<div class="neck"></div>
+		<div class="neck2"></div>
+		<div class="nose"></div>
+		<div class="lip-right"></div>
+		<div class="chin"></div>
+		<div class="left-ear"></div>
+		<div class="left-ear2"></div>
+		<div class="left-ear3"></div>
+		<div class="left-ear4"></div>
+		<div class="left-ear5"></div>
+		<div class="left-ear6"></div>
+		<div class="right-ear"></div>
+		<div class="right-ear2"></div>
+		<div class="right-ear3"></div>
+		<div class="right-ear4"></div>
+		<div class="right-ear5"></div>
+		<div class="right-ear6"></div>
+		<div class="brow-right"></div>
+		<div class="brow-left"></div>
+		<div class="bottom-body"></div>
+		<div class="top-body"></div>
+		
+		<div class="talk-bubble">
+			<h3 class="bubble-talk">This is a project i created using just CSS shapes to make a image. This is one of my favorite projects I did.</h3>
+			<!-- <h3 class="bubble-talk">Why don't you try speaking words, instead of damn dirty lies!!</h3> -->
+			<!-- <h3 class="bubble-talk">Hi, my name is Louise. I would like to donate a piece of my personal chalk, in case you need to outline a body</h3> -->
+			<!-- <h3>I dont appreciate your lack of sarcasm!!</h3> -->
+		</div>
+			
+		
+		<div class="talk-bubble2"></div>
+
+		
+
+
+
+
+
+	</div>
+
+</body>
+</html>
