@@ -8,7 +8,6 @@
 }
 @keyframes rotatingCog3{
     0%{transform: rotateY(0);}
-    /* 50%{transform: rotateZ(angle)} */
     100%{transform: rotateY(-360deg);}
 }
 
@@ -54,29 +53,161 @@ body {
 	height: 250px;
 	width: 250px;
 	right: -750px;
-	top: -527px;
-	animation: rotatingCog2 16s infinite;
+	top: -859px;
+	animation: rotatingCog2 19s infinite;
 	animation-timing-function: linear;
 }
 .cog5{
 	position: relative;
 	height: 250px;
 	width: 250px;
-	right: -618px;
-	top: -590px;
+	right: -364px;
+	top: -674px;
+	animation: rotatingCog1 19s infinite;
+	animation-timing-function: linear;
+}
+
+
+.cog6{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -9px;
+	top: -72px;
 	animation: rotatingCog1 16s infinite;
 	animation-timing-function: linear;
 }
+.cog7{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -1px;
+	top: -73px;
+	animation: rotatingCog2 16s infinite;
+	animation-timing-function: linear;
+}
+.cog8{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: 7px;
+	top: -74px;
+	animation: rotatingCog1 16s infinite;
+	animation-timing-function: linear;
+}
+.cog9{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: 16px;
+	top: -75px;
+	animation: rotatingCog2 16s infinite;
+	animation-timing-function: linear;
+}
+.cog10{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: 24px;
+	top: -76px;
+	animation: rotatingCog1 16s infinite;
+	animation-timing-function: linear;
+}
+.cog11{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -559px;
+	top: -154px;
+	animation: rotatingCog2 16s infinite;
+	animation-timing-function: linear;
+}
+.cog12{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -551px;
+	top: -155px;
+	animation: rotatingCog1 16s infinite;
+	animation-timing-function: linear;
+}
+.cog13{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -543px;
+	top: -156px;
+	animation: rotatingCog2 16s infinite;
+	animation-timing-function: linear;
+}
+.cog14{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -490px;
+	top: -110px;
+	animation: rotatingCog1 16s infinite;
+	animation-timing-function: linear;
+}
+.cog15{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -437px;
+	top: -64px;
+	animation: rotatingCog2 16s infinite;
+	animation-timing-function: linear;
+}
+.cog16{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -385px;
+	top: -19px;
+	animation: rotatingCog1 16s infinite;
+	animation-timing-function: linear;
+}
+.cog17{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -490px;
+	top: -27px;
+	animation: rotatingCog2 16s infinite;
+	animation-timing-function: linear;
+}
+.learned{
+	font-family: 'Mako', sans-serif;
+	font-size: 25px;
+	position: relative;
+	width: 306px;
+	margin: 1px;
+	top: -113px;
+	right: -249px;
+	color: black;
+}
+.me{
+	background: #e8e8e8;
+	padding: 12px;
+	border-radius: 10px;
+	border: 4px groove;
+	box-shadow: 6px 6px 6px black;
+}
+p{
+	font-family: 'Mako', sans-serif;
+	font-size: 20px;
+}
+
+
 
 .fadeOut {
     opacity: 0.17;
     transition: opacity 5s ease-in-out;
-    /* -moz-transition: opacity 5s ease-in-out;
-    -webkit-transition: opacity 5s ease-in-out; */
 }
 .fadeOut:hover {
     opacity: 1.0;
     transition: opacity 5s ease-in-out;
-    /* -moz-transition: opacity 5s ease-in-out;
-    -webkit-transition: opacity 5s ease-in-out; */
 }​
+
+
+
