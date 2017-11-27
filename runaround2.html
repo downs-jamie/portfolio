@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="config.js"></script>
+	<script type="text/javascript" src="runaround-revised4.js"></script>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="aroundstyle2.css">
+</head>
+
+<body>
+<a href="index.html" style="text-align: left;"><img src="images/backArrow.png" style="height: 20px;width: 30px;"></a>
+	<!-- <div class="container">
+	
+		<!-- <div class="row">
+			<div class="col-sm-12 text-center">
+				<img src="runback.jpg"> -->
+				<!-- <h1>blah</h1> -->
+		<!-- 	</div>
+		</div> -->
+		<!-- <img src="runback.jpg">
+		<div class="title">fhjkfhakjdas</div>
+		<div class="row" id="box">
+
+				<div class="col-sm-12">
+					<div class="box col-xs-2 col-sm-2 col-sm-offset-1"><!-- <span class="number">1</span> -->
+					<!-- </div>
+					<div class="box col-xs-2 col-sm-2 col-sm-offset-2"><!-- <span class="number">2</span> -->
+					<!-- </div> -->
+					<!-- <div class="box col-xs-2 col-sm-2 col-sm-offset-2"><!-- <span class="number">3</span> -->
+					<!-- </div> -->
+				<!-- </div> -->
+				<!-- <div class="col-sm-12"> -->
+					<!-- <div class="small col-xs-2 col-sm-2 col-sm-offset-1"><h5>Tell us how many miles you want to run!</h5>
+					</div>
+					<div class="small col-xs-2 col-sm-2 col-sm-offset-2"><h5>Get your routes!</h5>
+					</div>
+					<div class="small col-xs-2 col-sm-2 col-sm-offset-2"><h5>Run Around!!</h5>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1">
+						<input type="text" placeholder="Enter amount of miles">
+					</div>
+					<div class="col-sm-3 col-sm-offset-1">
+						<input type="text" placeholder="Enter your location">
+					</div> --> 
+					<!-- <div class="col-sm-3 col-sm-offset-1">
+						<input type="text" placeholder="Run Around!">
+					</div> -->
+			<!-- 	</div>
+		</div>
+		<div class="row" id="map-back">
+			<div class="col-sm-8 col-sm-offset-3" id="map">
+			
+		</div>
+	</div>
+		
+	</div> --> 
+<div class="container col-sm-12">
+	<img id="first" src="images/first2.jpg">
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="col-sm-3">
+            	<form class="run-form">
+                <div class="col-sm-12 box"><span class="info">Tell us your current location</span></br>
+                	<input id="location" type="text" placeholder="Current Location" />
+                </div>
+                <div class="col-sm-12 box"><span class="info">Choose how many miles you want to run</span></br>
+                	<select id="miles" name="cars">
+					  <option value="short">1-3 miles</option>
+					  <option value="long">3-5 miles</option>
+					  <option value="longer">5-7 miles</option>
+					  <option value="longest">7-10 miles</option>
+					</select>
+                </div>
+                <div class="col-sm-12 box"><span class="info">Generate your routes</span> </br>
+                	<button class="btn btn-default" type="submit" placeholder="Run!">Submit</button>
+                </div>
+                </form>
+            </div>
+           
+            <div class="col-sm-6" id="wrapper">
+                <div id="map"></div>
+            <!-- <div class="col-xs-4 col-sm-4 col-md-3" id="instructions"> </div> -->
+               
+                <!-- <div id="map2"></div>
+                <div class="col-xs-4 col-sm-4 col-md-3" id="instructions2"> </div>
+                <div id="map3"></div>
+                <div class="col-xs-4 col-sm-4 col-md-3" id="instructions3"> </div>
+                <div id="map4"></div>
+                <div class="col-xs-4 col-sm-4 col-md-3" id="instructions4"> </div>
+ -->
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-3" id="instructions"> </div>
+             <!-- <div id="floating-panel">
+    			<b>Start</b>
+		    		<select id="start">
+		    			<option value="atlanta tech village, atlanta, ga">Atlanta Tech Village</option>
+		    			<option value="">**********</option>
+		    			<option value="">**********</option>
+		    			<option value="">**********</option>
+		    		</select>
+	    		<b>End</b>
+		    		<select id="end">
+		    			<option value="lenox mall, atlanta, ga">Lenox Mall</option>
+		    			<option value="">**********</option>
+		    			<option value="">**********</option>
+		    			<option value="">**********</option>
+		    		</select>
+		    	<b>Startend</b>
+		    		<select id="startend">
+		    			<option value="atlanta tech village, atlanta, ga">Atlanta Tech Village</option>
+		    		</select>
+    		
+        	</div>
+        	</div> -->
+            <div id="warning-panel">
+            </div>
+    	</div>
+    	
+    </div>
+</div>
+
+
+
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Welcome to our website!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <! <span aria-hidden="true">We hope you ejoy</span> -->
+        <!-- </button>
+      </div>
+      <div class="modal-body">
+        With this app you can generate running loops in your area of however many miles you choose!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> --> 
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>

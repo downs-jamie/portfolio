@@ -1,0 +1,69 @@
+body{
+	background: url("images/cloud2.jpg")no-repeat center;
+	/* background-color: #4f555e; */
+}
+
+
+
+#wrapper{
+	height: 600px;
+	
+}
+
+#map{
+	height: 100%;
+	margin-top: 20px;
+}
+
+.box{
+	height: 150px;
+	width: 100%;
+	/* border: 1px solid black; */
+	margin-bottom: 50px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: "Optima";
+	background-color: white;
+}
+
+#first{
+	height: 100vh;
+	width: 100vw;
+	margin: auto;
+}
+
+input, select{
+	margin-top:30px;
+}
+
+.info{
+	margin-top: 20px;
+	padding: 10px;
+}
+#instructions{
+    height: 600px;
+    float: right;
+    overflow: scroll;
+    background-color: rgba(246, 246, 250, 0.4);
+    display: none;
+    margin-top: 20px;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 20px;
+  padding-left: 10px;
+  
+}
+
+#warning-panel{
+	display: hidden;
+}
