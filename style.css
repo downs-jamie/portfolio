@@ -167,7 +167,7 @@ body {
 	animation: rotatingCog1 16s infinite;
 	animation-timing-function: linear;
 }
-.cog18{
+/* .cog18{
 	position: relative !important;
 	height: 50px !important;
 	width: 50px !important;
@@ -202,7 +202,7 @@ body {
 	top: -158px !important;
 	animation: rotatingCog2 16s infinite !important;
 	animation-timing-function: linear !important;
-}
+} */
 .cog17{
 	position: relative;
 	height: 50px;
