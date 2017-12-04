@@ -1,3 +1,16 @@
 body{
-	background: #c4c4c4;
+	background-color: dimgrey;
+}
+
+.pygame{
+	border: 1px solid black;
+	padding: 7px;
+	width: 579px;
+	height: 500px;
+	overflow: scroll;
+}
+#nope{
+	margin-left: 75px;
+	margin-top: 100px;
+	width: 100vw;
 }
