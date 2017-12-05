@@ -167,32 +167,32 @@ body {
 	animation: rotatingCog1 16s infinite;
 	animation-timing-function: linear;
 }
-/* .cog18{
-	position: relative !important;
-	height: 50px !important;
-	width: 50px !important;
-	right: -322px !important;
-	top: -65px !important;
-	animation: rotatingCog1 16s infinite !important;
-	animation-timing-function: linear !important;
+.cog18{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -322px;
+	top: -65px;
+	animation: rotatingCog1 16s infinite;
+	animation-timing-function: linear;
 }
 .cog19{
-	position: relative !important;
-	height: 50px !important;
-	width: 50px !important;
-	right: -267px !important;
-	top: -111px !important;
-	animation: rotatingCog2 16s infinite !important;
-	animation-timing-function: linear !important;
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -267px;
+	top: -111px;
+	animation: rotatingCog2 16s infinite;
+	animation-timing-function: linear;
 }
 .cog20{
-	position: relative !important;
-	height: 50px !important;
-	width: 50px !important;
-	right: -212px !important;
-	top: -157px !important;
-	animation: rotatingCog1 16s infinite !important;
-	animation-timing-function: linear !important;
+	position: relative;
+	height: 50px;
+	width: 50px;
+	right: -212px;
+	top: -157px;
+	animation: rotatingCog1 16s infinite;
+	animation-timing-function: linear;
 }
 .cog21{
 	position: relative !important;
@@ -202,7 +202,7 @@ body {
 	top: -158px !important;
 	animation: rotatingCog2 16s infinite !important;
 	animation-timing-function: linear !important;
-} */
+}
 .cog17{
 	position: relative;
 	height: 50px;
