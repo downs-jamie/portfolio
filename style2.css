@@ -1,16 +1,32 @@
 body{
 	background-color: dimgrey;
 }
-
+h1{
+	padding: 10px;
+	text-align: center;
+	font-style: black;
+}
 .pygame{
+	margin: auto;
 	border: 1px solid black;
 	padding: 7px;
-	width: 579px;
+	width: 640px;
 	height: 500px;
 	overflow: scroll;
+	background: black;
+	color: white;
+	z-index: 1;
 }
 #nope{
 	margin-left: 75px;
 	margin-top: 100px;
 	width: 100vw;
+}
+
+.pygame2{
+	position: relative;
+	margin: auto;
+	padding: 10px;
+	z-index: -1;
+	right: -184px;
 }
