@@ -6,6 +6,11 @@ h1{
 	text-align: center;
 	font-style: black;
 }
+.arrow{
+	right: -30px;
+	position: relative;
+}
+
 .pygame{
 	margin: auto;
 	border: 1px solid black;
