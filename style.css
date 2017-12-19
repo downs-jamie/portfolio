@@ -68,21 +68,31 @@ body {
 	position: relative;
 	height: 250px;
 	width: 250px;
-	right: -648px;
-	top: -859px;
-	animation: rotatingCog2 19s infinite;
+	right: -661px;
+	top: -862px;
+	animation: rotatingCog1 16s infinite;
 	animation-timing-function: linear;
 }
 .cog5{
 	position: relative;
 	height: 250px;
 	width: 250px;
-	right: -262px;
-	top: -674px;
-	animation: rotatingCog1 19s infinite;
+	right: -273px;
+	top: -675px;
+	animation: rotatingCog2 16s infinite;
 	animation-timing-function: linear;
 }
 
+.cog30{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	right: -145px;
+	top: 315px;
+	animation: rotatingCog1 16s infinite;
+	animation-timing-function: linear;
+
+}
 
 .cog6{
 	position: relative;

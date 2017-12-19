@@ -7,8 +7,9 @@ h1{
 	font-style: black;
 }
 .arrow{
-	right: -30px;
+	right: -86px;
 	position: relative;
+	top: 10px;
 }
 
 .pygame{
