@@ -33,7 +33,9 @@
 body {
 	background: dimgrey;
 }
-
+.counter{
+	margin-bottom: 30px;
+}
 
 .cog1{
 	position: relative;
