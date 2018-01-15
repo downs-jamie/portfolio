@@ -29,7 +29,9 @@
     /* 50%{margin-bottom:50px;} */
 }
 
-
+.navbar{
+	left: 63px;
+}
 body {
 	background: dimgrey;
 }
@@ -296,6 +298,7 @@ body {
 	bottom: 369px;
 	left: 538px;
 }
+
 .me{
 	background: #e8e8e8;
 	padding: 12px;

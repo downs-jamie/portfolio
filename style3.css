@@ -1,0 +1,14 @@
+body {
+	background: dimgrey;
+}
+h1, p{
+	text-align: center;
+	width: 500px;
+	position: relative;
+
+}
+
+.video{
+	position: relative;
+	text-align: center;
+}
