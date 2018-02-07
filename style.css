@@ -38,6 +38,10 @@ body {
 .counter{
 	margin-bottom: 30px;
 }
+.cogs4{
+	position: relative;
+	top: 83px;
+}
 
 .cog1{
 	position: relative;
@@ -305,7 +309,9 @@ body {
 	border-radius: 10px;
 	border: 4px groove;
 	box-shadow: 6px 6px 6px black;
-	width: 80%;
+	width: 100%;
+	position: relative;
+	top: 79px;
 
 }
 p{
