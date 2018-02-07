@@ -1,6 +1,11 @@
 body {
 	background: dimgrey;
 }
+.discribe{
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
 h1, p{
 	text-align: center;
 	width: 500px;
@@ -9,6 +14,7 @@ h1, p{
 }
 
 .video{
+	margin: auto;
 	position: relative;
 	text-align: center;
 }

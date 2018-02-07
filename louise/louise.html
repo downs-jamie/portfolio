@@ -4,9 +4,16 @@
 	<title></title>
 	<link rel="icon" href="../images/escher2.png">
 		<style type="text/css" media="screen">
+			/*@keyframes eye1{
+			    0%{margin-top:5px;}
+			    50%{margin-left:5px;}
+			    50%{margin-right:5px;}
+			    100%{margin-bottom:5px;}
+			}*/
 			body{
 				background: url('BobsBurgers1-copy.jpg');
-				height: 100vh;
+				height: 100%;
+				background-repeat: no-repeat;
 				
 				
 			}
@@ -207,6 +214,8 @@
 				border-radius: 50px;
 				left: 191px;
 				top: 509px;
+				animation: eye1 8s infinite;
+				animation-timing-function: linear;
 			}
 			.dot2{
 				position: absolute;
@@ -567,7 +576,7 @@
 				position: absolute;
 				top: 800px;
 				right: 163px;
-				border-bottom: 197px solid green;
+				border-bottom: 238px solid green;
 				border-left: 83px solid transparent;
 				border-right: 71px solid transparent;
 				height: 0;
@@ -582,7 +591,244 @@
 				border-radius: 50%;
 				box-shadow: 0px 40px 0 0 peachpuff;
 			}
-			
+			.arm-left{
+				width: 0;
+				height: 0;
+				top: 787px;
+				right: 347px;
+				border-bottom: 195px solid green;
+				border-left: 77px solid transparent;
+				position: absolute;
+				transform: rotate(19deg);
+			}
+			.arm-right{
+				width: 0;
+				height: 0;
+				top: 795px;
+				right: 132px;
+				border-bottom: 195px solid green;
+				border-right: 77px solid transparent;
+				position: absolute;
+				transform: rotate(-14deg);
+			}
+			.arm-left2{
+				position: absolute;
+				top: 950px;
+				width: 80px;
+				height: 0px;
+				border: 0.3px solid black;
+				right: 327px;
+				border-radius: 159px 62px 243px 41px;
+				transform: rotate(-68deg);
+				z-index: 1;
+			}
+			.arm-right2{
+				position: absolute;
+				top: 956px;
+				width: 80px;
+				height: 0px;
+				border: 0.3px solid black;
+				right: 147px;
+				border-radius: 159px 62px 243px 41px;
+				transform: rotate(72deg);
+				z-index: 1;
+			}
+			.arm-left3{
+				top: 941px;
+				right: 422px;
+				width: 37px;
+				height: 100px;
+				background: peachpuff;
+				position: absolute;
+				transform: rotate(58deg);
+				z-index: -1;
+
+			}
+			.arm-right3{
+				top: 941px;
+				right: 113px;
+				width: 37px;
+				height: 100px;
+				background: peachpuff;
+				position: absolute;
+				transform: rotate(-53deg);
+				z-index: -1;
+
+			}
+			.arm-left4{
+				top: 898px;
+				right: 501px;
+				width: 37px;
+				height: 149px;
+				background: peachpuff;
+				position: absolute;
+				transform: rotate(129deg);
+				z-index: -1;
+
+			}
+			.arm-right4{
+				top: 895px;
+				right: 46px;
+				width: 37px;
+				height: 149px;
+				background: peachpuff;
+				position: absolute;
+				transform: rotate(-136deg);
+				z-index: -1;
+
+			}
+			.finger1{
+				position: absolute;
+				top: 899px;
+				right: 558px;
+				width: 13px;
+				height: 24px;
+				background: peachpuff;
+				z-index: 2;
+				transform: rotate(-37deg);
+				border-radius: 27px / 50px;
+			}
+			.finger2{
+				position: absolute;
+				top: 900px;
+				right: 606px;
+				width: 13px;
+				height: 20px;
+				background: peachpuff;
+				z-index: 2;
+				transform: rotate(80deg);
+				border-radius: 27px / 50px;
+			}
+			.finger3{
+				position: absolute;
+				top: 910px;
+				right: 602px;
+				width: 13px;
+				height: 27px;
+				background: peachpuff;
+				z-index: 2;
+				transform: rotate(94deg);
+				border-radius: 27px / 50px;
+			}
+			.finger4{
+				position: absolute;
+				top: 925px;
+				right: 602px;
+				width: 13px;
+				height: 23px;
+				background: peachpuff;
+				z-index: 2;
+				transform: rotate(92deg);
+				border-radius: 27px / 50px;
+			}
+			.finger12{
+				position: absolute;
+				top: 892px;
+				right: 17px;
+				width: 13px;
+				height: 24px;
+				background: peachpuff;
+				z-index: 2;
+				transform: rotate(48deg);
+				border-radius: 27px / 50px;
+			}
+			.finger22{
+				position: absolute;
+				top: 894px;
+				right: -25px;
+				width: 13px;
+				height: 20px;
+				background: peachpuff;
+				z-index: 2;
+				transform: rotate(100deg);
+				border-radius: 27px / 50px;
+			}
+			.finger32{
+				position: absolute;
+				top: 903px;
+				right: -22px;
+				width: 13px;
+				height: 27px;
+				background: peachpuff;
+				z-index: 2;
+				transform: rotate(94deg);
+				border-radius: 27px / 50px;
+			}
+			.finger42{
+				position: absolute;
+				top: 918px;
+				right: -22px;
+				width: 13px;
+				height: 23px;
+				background: peachpuff;
+				z-index: 2;
+				transform: rotate(92deg);
+				border-radius: 27px / 50px;
+			}
+
+
+
+
+			.mustard{
+				width: 50px;
+				height: 121px;
+				background-color: #FFCC11;
+				position: absolute;
+				top: 855px;
+				right: -23px;
+				border-radius: 3px;
+			}
+			.mustard2{
+				border-bottom: 14px solid #FFCC11;
+				border-left: 7px solid transparent;
+				border-right: 7px solid transparent;
+				height: 0;
+				width: 20px;
+				position: absolute;
+				top: 842px;
+				right:  -15px;
+				border-radius: 10px 10px 0 0;
+			}
+			.mustard3{
+				width: 0;
+				height: 0;
+				border-left: 7px solid transparent;
+				border-right: 7px solid transparent;
+				border-bottom: 31px solid #FFCC11;
+				position: absolute;
+				top: 812px;
+				right:  -5px;
+			}
+			.ketchup{
+				width: 50px;
+				height: 121px;
+				background-color: #CE2522;
+				position: absolute;
+				top: 855px;
+				right: 564px;
+				border-radius: 3px;
+			}
+			.ketchup2{
+				border-bottom: 14px solid #CE2522;
+				border-left: 7px solid transparent;
+				border-right: 7px solid transparent;
+				height: 0;
+				width: 20px;
+				position: absolute;
+				top: 842px;
+				right: 573px;
+				border-radius: 10px 10px 0 0;
+			}
+			.ketchup3{
+				width: 0;
+				height: 0;
+				border-left: 7px solid transparent;
+				border-right: 7px solid transparent;
+				border-bottom: 31px solid #CE2522;
+				position: absolute;
+				top: 812px;
+				right:  583px;
+			}
 
 
 			/* } */
@@ -643,11 +889,32 @@
 		<div class="brow-left"></div>
 		<div class="bottom-body"></div>
 		<div class="top-body"></div>
-		
+		<div class="arm-left"></div>
+		<div class="arm-left2"></div>
+		<div class="arm-right"></div>
+		<div class="arm-right2"></div>
+		<div class="arm-left3"></div>
+		<div class="arm-right3"></div>
+		<div class="arm-left4"></div>
+		<div class="arm-right4"></div>
+		<div class="finger1"></div>
+		<div class="finger2"></div>
+		<div class="finger3"></div>
+		<div class="finger4"></div>
+		<div class="finger12"></div>
+		<div class="finger22"></div>
+		<div class="finger32"></div>
+		<div class="finger42"></div>
+		<div class="mustard"></div>
+		<div class="mustard2"></div>
+		<div class="mustard3"></div>
+		<div class="ketchup"></div>
+		<div class="ketchup2"></div>
+		<div class="ketchup3"></div>
 		<div class="talk-bubble">
-			<h3 class="bubble-talk">This is a project I created using just CSS shapes to make a image. This is one of my favorite projects I did.</h3>
+			<!-- <h3 class="bubble-talk">This is a project I created using just CSS shapes to make an image. This is one of my favorite projects I did.</h3> -->
 			<!-- <h3 class="bubble-talk">Why don't you try speaking words, instead of damn dirty lies!!</h3> -->
-			<!-- <h3 class="bubble-talk">Hi, my name is Louise. I would like to donate a piece of my personal chalk, in case you need to outline a body</h3> -->
+			<h3 class="bubble-talk">Hi, my name is Louise. I would like to donate a piece of my personal chalk, in case you need to outline a body.</h3>
 			<!-- <h3>I dont appreciate your lack of sarcasm!!</h3> -->
 		</div>
 			

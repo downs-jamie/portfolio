@@ -30,7 +30,7 @@
 }
 
 .navbar{
-	left: 63px;
+	width: 90%;
 }
 body {
 	background: dimgrey;
@@ -73,7 +73,7 @@ body {
 	height: 250px;
 	width: 250px;
 	right: -661px;
-	top: -862px;
+	top: -836px;
 	animation: rotatingCog1 16s infinite;
 	animation-timing-function: linear;
 }
@@ -81,8 +81,8 @@ body {
 	position: relative;
 	height: 250px;
 	width: 250px;
-	right: -273px;
-	top: -675px;
+	right: -275px;
+	top: -650px;
 	animation: rotatingCog2 16s infinite;
 	animation-timing-function: linear;
 }
@@ -91,8 +91,8 @@ body {
 	position: relative;
 	height: 200px;
 	width: 200px;
-	right: -347px;
-	top: -843px;
+	right: 159px;
+	top: -702px;
 	animation: rotatingCog1 16s infinite;
 	animation-timing-function: linear;
 
@@ -219,7 +219,7 @@ body {
 	position: relative;
 	height: 50px;
 	width: 50px;
-	right: -212px;
+	right: -535px;
 	top: -157px;
 	animation: rotatingCog1 16s infinite;
 	animation-timing-function: linear;
@@ -228,7 +228,7 @@ body {
 	position: relative !important;
 	height: 50px !important;
 	width: 50px !important;
-	right: -204px !important;
+	right: -528px !important;
 	top: -158px !important;
 	animation: rotatingCog2 16s infinite !important;
 	animation-timing-function: linear !important;
@@ -305,13 +305,18 @@ body {
 	border-radius: 10px;
 	border: 4px groove;
 	box-shadow: 6px 6px 6px black;
+	width: 80%;
+
 }
 p{
 	font-family: 'Mako', sans-serif;
 	font-size: 20px;
 }
 
-
+.footer{
+	margin: auto;
+	width: 90%;
+}
 
 .fadeOut {
     opacity: 0.17;
