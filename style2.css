@@ -1,6 +1,17 @@
 body{
 	background-color: dimgrey;
 }
+.header2{
+	background: #e8e8e8;
+	padding: 12px;
+	border-radius: 10px;
+	border: 4px groove;
+	box-shadow: 6px 6px 6px black;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	top: 79px;
+}
 h1{
 	padding: 10px;
 	text-align: center;
