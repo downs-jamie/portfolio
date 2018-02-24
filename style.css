@@ -210,15 +210,6 @@ body {
 	animation: rotatingCog1 16s infinite;
 	animation-timing-function: linear;
 }
-.cog19{
-	position: relative;
-	height: 50px;
-	width: 50px;
-	right: -267px;
-	top: -111px;
-	animation: rotatingCog2 16s infinite;
-	animation-timing-function: linear;
-}
 .cog20{
 	position: relative;
 	height: 50px;
@@ -236,15 +227,6 @@ body {
 	top: -158px !important;
 	animation: rotatingCog2 16s infinite !important;
 	animation-timing-function: linear !important;
-}
-.cog17{
-	position: relative;
-	height: 50px;
-	width: 50px;
-	right: -377px;
-	top: -20px;
-	animation: rotatingCog2 16s infinite;
-	animation-timing-function: linear;
 }
 #learned1{
 	position: relative;
